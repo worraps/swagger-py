@@ -11,7 +11,7 @@ try :
     import urlparse
 except:
     import urllib.parse as urlparse
-import urlparse
+#import urlparse
 
 from swaggerpy.http_client import SynchronousHttpClient
 from swaggerpy.processors import SwaggerProcessor, SwaggerError
